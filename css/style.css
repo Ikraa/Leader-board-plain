@@ -1,0 +1,35 @@
+/* font awesome */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* base style */
+body
+{
+    font-family: 'Poppins', sans-serif;
+    background-color: #E5E5E5;
+}
+.containar
+{
+    background-color: white;
+}
+
+/* navbar styels */
+
+
+/* top players styles */
+
+.top-players
+{
+    display: grid ;
+    grid-template-columns: repeat(3, 1fr);
+}
+.player
+{
+    display: flex;
+    align-items: center;
+
+}
+.player img
+{
+    Width: 56px;
+    Height: 56px
+}
