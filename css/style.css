@@ -19,25 +19,24 @@ main
 {
     color:#562EFF;
     font-size: 24px;
+    margin-bottom: 33px;
 }
 .containar
 {
     background-color: white;
     width: 870px;
-    
-    
 }
 .players
 {
     display: grid ;
     grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
     
 }
 .player
 {
     display: flex;
     align-items: center;
-    margin-bottom: 28px;
 }
 .player img
 {
@@ -47,20 +46,13 @@ main
 .top-players
 {
     margin-left:33px;
-    margin-top: 33px;
-   
     
-}
-.section-title
-{
-    margin-bottom: 33px;
 }
 .player h4
 {
     margin-left: 16px;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
-    color: #000000;
 }
 hr
 {
