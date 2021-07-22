@@ -7,29 +7,63 @@ body
     font-family: 'Poppins', sans-serif;
     background-color: #E5E5E5;
 }
+main
+{
+    display: flex;
+    justify-content: center;
+    
+}
+
+/* top players styles */
+.section-title
+{
+    color:#562EFF;
+    font-size: 24px;
+}
 .containar
 {
     background-color: white;
+    width: 870px;
+    
+    
 }
-
-/* navbar styels */
-
-
-/* top players styles */
-
-.top-players
+.players
 {
     display: grid ;
     grid-template-columns: repeat(3, 1fr);
+    
 }
 .player
 {
     display: flex;
     align-items: center;
-
+    margin-bottom: 28px;
 }
 .player img
 {
     Width: 56px;
     Height: 56px
+}
+.top-players
+{
+    margin-left:33px;
+    margin-top: 33px;
+   
+    
+}
+.section-title
+{
+    margin-bottom: 33px;
+}
+.player h4
+{
+    margin-left: 16px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #000000;
+}
+hr
+{
+    border: 1px solid #D1D1D1;
+    width: 807px;
 }
