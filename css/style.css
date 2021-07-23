@@ -11,6 +11,8 @@ main
 {
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
     
 }
 
@@ -20,12 +22,15 @@ main
     color:#562EFF;
     font-size: 24px;
     margin-bottom: 33px;
+    font-weight: 500;
 }
 .containar
 {
     background-color: white;
     width: 870px;
     padding: 30px;
+    margin-top: 21px;
+    border-radius: 5px;
 }
 .players
 {
@@ -102,3 +107,76 @@ hr
     color: #562EFF;
     font-size: 16px;
 }
+/* Latest course */
+.courses
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 24px;
+}
+.course
+{
+    box-shadow: 0px 5.34229px 13.3557px #0000000d;
+    padding: 18px 10px 14px 18px;
+    border-radius: 5px;
+
+    
+}
+.course-banner img
+{
+    width: 224px;
+    height: 104px;
+}
+.course-title
+{
+    margin-bottom: -7.17px;
+}
+.course-author
+{
+    color: #ED6B4F;
+}
+.course-info
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+span
+{
+    color:#A2A2A2;
+    padding-left: 5px;
+    
+}
+.rating
+{
+    margin-top: 3px;
+}
+.course-duration
+{
+   font-size: 14.61px;
+   border-radius: 50px;
+   background-color: #FEE5DF;
+   padding: 5px 10px 5px 10px;
+   color: #FF4A60;
+   margin-right: 18px;
+   font-weight: 500;
+}
+.fa-star
+{
+    font-size: 12px;
+}
+.fa-star.filled
+{
+    color: #FFC014;
+}
+.fa-star.empty
+{
+    color: #AEAEAE;
+}
+.fa-clock
+{
+    padding-right: 5px;
+    font-weight: 500;
+}
+
